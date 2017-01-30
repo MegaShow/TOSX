@@ -1,4 +1,12 @@
 #TOSX
 
 #binary file
-/bin/
+*.exe
+*.out
+*.bin
+
+#image file
+*.img
+
+#specific file
+"bin/bochs fo tosx/bochsout.txt"
