@@ -9,4 +9,7 @@
 *.img
 
 #specific file
-"bin/bochs fo tosx/bochsout.txt"
+/bin/bochsout.txt
+
+#tools
+/bin/Bochs-2.6.8/

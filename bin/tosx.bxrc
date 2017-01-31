@@ -6,11 +6,11 @@
 megs: 32
 
 # filename of ROM images
-romimage: file=D:/Software/Virtual/Bochs-2.6.8/BIOS-bochs-latest
-vgaromimage: file=D:/Software/Virtual/Bochs-2.6.8/VGABIOS-lgpl-latest
+romimage: file=Bochs-2.6.8/BIOS-bochs-latest
+vgaromimage: file=Bochs-2.6.8/VGABIOS-lgpl-latest
 
 # what disk images will be used
-floppya: 1_44=../a.img, status=inserted
+floppya: 1_44=a.img, status=inserted
 floppyb: 1_44=floppyb.img, status=inserted
 
 # hard disk
@@ -44,7 +44,7 @@ clock: sync=both
 # in the DLX Linux example I'm enabling keyboard_mapping so that paste
 # will work.  Cut&Paste is currently implemented on win32 and X windows only.
 
-keyboard: keymap=D:/Software/Virtual/Bochs-2.6.8/keymaps/x11-pc-us.map
-#keyboard: keymap=D:/Software/Virtual/Bochs-2.6.8/keymaps/x11-pc-fr.map
-#keyboard: keymap=D:/Software/Virtual/Bochs-2.6.8/keymaps/x11-pc-de.map
-#keyboard: keymap=D:/Software/Virtual/Bochs-2.6.8/keymaps/x11-pc-es.map
+keyboard: keymap=Bochs-2.6.8/keymaps/x11-pc-us.map
+#keyboard: keymap=Bochs-2.6.8/keymaps/x11-pc-fr.map
+#keyboard: keymap=Bochs-2.6.8/keymaps/x11-pc-de.map
+#keyboard: keymap=Bochs-2.6.8/keymaps/x11-pc-es.map
