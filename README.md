@@ -2,9 +2,9 @@
 
 **TOSX** means **Try Operating System though it's an unknown number X**.  
 
- ## How to get TOSX
+## How to get TOSX
 
-You can get the master version from the branch **master**.
+You can get the source code using the following.
 
 ```
 $ git clone https://github.com/MegaShow/TOSX.git
@@ -21,7 +21,7 @@ $ git checkout dev
 
 **The development environment is under Windows.**  
 
-**Also, you can run it under Linux by revising the script file.** (In Windows, the file is run.bat)  
+**Also, you can run it under Linux by creating suitable shell file.** (In Windows, it's batch file **run.bat**)  
 
 Here are the tools which we need.
 
@@ -29,11 +29,18 @@ Here are the tools which we need.
 * DD for Windows
 * Bochs
 
+You can get the tools from the following website.
+
+```
+http://icytown.com/tosx/TOSX-IDE-for-Windows.zip
+```
+
+Unzip the zip file and put files into the folder **bin**.
+
 Execute the following from the project's root directory.
 
 ```
-$ cd bin
-$ run.bat
+$ ./run.bat
 ```
 
 ## License
