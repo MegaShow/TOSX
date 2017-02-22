@@ -1,9 +1,6 @@
 ::compile
 cd boot
-"../bin/nasm" boot.asm -o "../bin/boot.bin"
-
-::package
-"../bin/dd" if="../bin/boot.bin" of="../bin/a.img" bs=512 count=1 conv=notrunc
+"../bin/nasm" boot.asm -o "../bin/a.img"
 
 ::run
 cd "../bin/"
